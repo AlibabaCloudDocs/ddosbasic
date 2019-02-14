@@ -12,13 +12,13 @@ For servers that are deployed outside mainland China, see the following three sc
 
 ## Scenario 1: The Business Server is deployed in non-mainland China and mainly serves users from non-Mainland China {#section_ksh_mtw_fgb .section}
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79665/154692821635114_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79665/154780947435114_en-US.png)
 
 Purchase Anti-DDoS Premium, and add your business to the Anti-DDoS Premium instance for DDoS protection according to [Enable Anti-DDoS Premium](reseller.en-US/Anti-DDoS Premium Service/Quick Start/Enable Anti-DDoS Premium.md#).
 
 ## Scenario 2: Servers deployed outside mainland China, while serving users in mainland China { .section}
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79665/154692821635116_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79665/154780947435116_en-US.png)
 
 Solutions:
 
@@ -33,7 +33,7 @@ Solutions:
 
 ## Scenario 3: Servers deployed outside mainland China, while serving users both in and outside mainland China { .section}
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79665/154692821635130_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79665/154780947435130_en-US.png)
 
 Solutions:
 

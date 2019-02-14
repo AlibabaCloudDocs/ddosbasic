@@ -6,30 +6,30 @@ After configuring MCA instance together with Anti-DDoS Premium Insurance/Unlimit
 
 For more information about recommended scenarios that require Anti-DDoS Premium MCA, refer to [Anti-DDoS Premium Use Cases](reseller.en-US/Anti-DDoS Premium Service/Product Introduction/Scenarios.md#).
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79672/154692909435306_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79672/154780976335306_en-US.png)
 
 You can configure an Anti-DDoS Premium MCA instance for domain \(7-layer\) or port \(4-layer\).
 
 After purchasing Anti-DDoS Premium MCA and Insurance/Unlimited instances, complete provisioning of the instances for your website domain or service port on the Anti-DDoS Premium Management console, and then configure a Security Traffic Manager rule to enable the auto-switching between MCA and anti-DDoS instances. Finally, use the security service manager rule to forward non-attack traffic to the origin server of your web service.
 
-1.   Log on to the [Anti-DDoS Premium Service console](https://yundun.console.aliyun.com/?p=ddosdip). 
+1.  Log on to the [Anti-DDoS Premium Service console](https://partners-intl.console.aliyun.com/#/ddosdip). 
 2.  Add your website or non-website service to both Anti-DDoS Premium Insurance/Unlimited and MCA instances. 
 
     **Note:** Only complete the provisioning configurations for your web service. Do not change the DNS resolution records of your domain at this step.
 
     -   For website domain: Refer to [Add website to Anti-DDoS Premium for protection](reseller.en-US/Anti-DDoS Premium Service/Quick Start/Add website to Anti-DDoS Premium for protection.md#) to complete the provisioning configuration. During the configuration, choose both dedicated IPs of your Insurance/Unlimited and MCA instances when you choose dedicated IPs of Anti-DDoS Premium.
 
-    -   For service port: Refer to [Add non-website business to Anti-DDoS Premium for protection](reseller.en-US/Anti-DDoS Premium Service/Quick Start/Add non-website business to Anti-DDoS Premium for protection.md#) to complete the provisioning configuration. Add forwarding rules under both Anti-DDoS Premium Insurance/Unlimited and MCA instances for your non-website service. Thus, you have to add a forwarding rule for your non-website service for each instance that is supposed to be used.
+    -   For service port: Refer to [Add non-website business to Anti-DDoS Premium for protection](reseller.en-US/Anti-DDoS Premium Service/Quick Start/Add a non-website business to Anti-DDoS Premium for protection.md#) to complete the provisioning configuration. Add forwarding rules under both Anti-DDoS Premium Insurance/Unlimited and MCA instances for your non-website service. Thus, you have to add a forwarding rule for your non-website service for each instance that is supposed to be used.
 
 **Note:** To configure Anti-DDoS Premium MCA for non-website service, your service must have a domain bound with the origin server instead of using the server IP directly. Otherwise, traffic cannot be automatically scheduled by Security Traffic Manager.
 
 3.  After the provisioning configuration completes, select the **Provisioning** \> **Security Traffic Manager** page, click **Add Rule**. 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79672/154692909435308_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79672/154780976335308_en-US.png)
 
 4.  In the Add Rule dialog box, configure rule and then click **Confirm**. 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79672/154692909435312_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79672/154780976335312_en-US.png)
 
     -   The High Priority node: select the dedicated IP of the MCA instance.
     -   The Low Priority node: select the dedicated IP of the Insurance/Unlimited instance.

@@ -37,11 +37,11 @@ The black hole duration is the amount of time the triggered black hole lasts, 2.
 
 To check the actual black hole threshold of your ECS, SLB, or EIP instance, follow these steps:
 
-1.  Log on to [Alibaba Cloud Anti-DDoS Basic console](https://yundun.console.aliyun.com/?p=ddosnext).
+1.  Log on to [Alibaba Cloud Anti-DDoS Basic console](https://partners-intl.console.aliyun.com/#/ddosnext).
 2.  Select the region.
 3.  On the **Anti-DDoS Basic** \> **Instances** page, select the instance type tab: **ECS**, **SLB**, or **EIP \(including NAT\)**.
 4.  Locate the instance, and check the actual black hole threshold of the instance in the **Current Protection Threshold** column.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79459/154806167834180_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79459/154806168834180_en-US.png)
 
 

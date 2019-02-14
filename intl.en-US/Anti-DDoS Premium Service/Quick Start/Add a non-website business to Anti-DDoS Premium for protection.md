@@ -6,14 +6,14 @@ After purchasing an Anti-DDoS Premium instance, you can add your non-website bus
 
 **Note:** If you want to add a website domain to Anti-DDoS Premium, see [Add website to Anti-DDoS Premium for protection](reseller.en-US/Anti-DDoS Premium Service/Quick Start/Add website to Anti-DDoS Premium for protection.md#).
 
-1.  Log on to the [Anti-DDoS Premium Service console](https://yundun.console.aliyun.com/?p=ddosdip). 
+1.  Log on to the [Anti-DDoS Premium Service console](https://partners-intl.console.aliyun.com/#/ddosdip). 
 2.  Go to **Provisioning** \> **Non-Website** page, select an Anti-DDoS Premium instance, and click **Add Rule**. 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79671/154693634335261_en-US.png) 
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79671/154780973935261_en-US.png) 
 
 3.  On the Add Rule page, configure the following rule, and click **Confirm**. 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79671/154693634435264_en-US.png) 
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79671/154780973935264_en-US.png) 
 
     |Parameter|Description|Note|
     |---------|-----------|----|
@@ -24,7 +24,7 @@ After purchasing an Anti-DDoS Premium instance, you can add your non-website bus
 
 4.  After you verify that the Anti-DDoS Premium forwarding rule works as expected, switch your business traffic to the Dedicated IP of the Anti-DDoS Premium instance. 
 
-    **Note:** Log on to the [Anti-DDoS Premium Service console](https://yundun.console.aliyun.com/?p=ddosdip). On the Instance Listpagepage, you can find the Dedicated IP of the Anti-DDoS Premium instance.
+    **Note:** Log on to the [Anti-DDoS Premium Service console](https://partners-intl.console.aliyun.com/#/ddosdip). On the Instance Listpagepage, you can find the Dedicated IP of the Anti-DDoS Premium instance.
 
     -   If your business uses IP to access the origin server, change the business IP to the Dedicated IP of Anti-DDoS Premium.
     -   If your business also uses a domain to access the origin server \(For example, you set the “aliyundemo.com” domain as the server address in the client program\), go the DNS service provider of the domain and change the A record to point to the Dedicated IP of Anti-DDoS Premium.

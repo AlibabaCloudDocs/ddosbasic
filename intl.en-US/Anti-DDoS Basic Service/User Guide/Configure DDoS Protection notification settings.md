@@ -9,12 +9,12 @@ To configure the notification methods \(Internal Messages, Email, and Text messa
 1.  Log on to the **Message Center console**.
 2.  Click **Message Settings** and locate to **Security Notice**.
 
-    ![](images/34135_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79456/154710877434135_en-US.png)
 
 3.  Click **Modify** and select the message recipient.
 
     **Note:** To add a new message recipient, click **Add Receiver**.
 
-    ![](images/34136_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79456/154710877434136_en-US.png)
 
 
