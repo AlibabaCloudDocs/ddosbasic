@@ -11,11 +11,11 @@
 -   1：域名
 
 |
-|InstanceIds|\[\]String|否|要绑定的实例Id。**说明：** 若不传入该参数，则只添加域名，不绑定到具体IP。
+|InstanceIds.N|String|否|要绑定的实例Id。若有多个实例，依次传入InstanceIds.1, InstanceIds.2, InstanceIds.3, ...**说明：** 若不传入该参数，则只添加域名，不绑定到具体IP。
 
 |
-|RealServers|\[\]String|是|源站IP。|
-|ProxyTypes|\[\]String|是|协议数组。|
+|RealServers.N|String|是|源站IP。若有多个源站IP，依次传入RealServers.1, RealServers.2, RealServers.3, ...|
+|ProxyTypes.N|String|是|协议数组。若有多个协议，依次传入ProxyTypes.1, ProxyTypes.2, ProxyTypes.3, ...|
 
 ## 返回参数 { .section}
 
@@ -31,9 +31,9 @@
 {
   "Domain": "www.alibaba.com",
   "RsType" : 0,
-  "RealServers": ["1.1.1.1","1.1.1.2"],
-  "InstanceIds": ["xxxx","yyyyy"],
-  "ProxyTypes" : ["http","https"]
+  "RealServers.1": "1.1.1.1",
+  "InstanceIds.1": "xxxx",
+  "ProxyTypes.1" : "http"
 }
 
 ```
