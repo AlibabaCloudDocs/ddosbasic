@@ -1,15 +1,18 @@
-# ModifyCcTemplate {#doc_api_950093 .reference}
+# ModifyCcTemplate {#doc_api_1091521 .reference}
 
 调用ModifyCcTemplate接口修改网站安全防护CC防护模式。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=ModifyCcTemplate)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=ModifyCcTemplate)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|ModifyCcTemplate|要执行的操作。取值：**ModifyCcTemplate**。
+
+ |
 |Domain|String|是|www.aliyun.com|要操作的域名。
 
  |
@@ -48,9 +51,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyCcTemplate
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<ModifyCcTemplate>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</root>
+</ModifyCcTemplate>
 
 ```
 
