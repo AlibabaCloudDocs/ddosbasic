@@ -1,15 +1,18 @@
-# DescribeBizFlow {#doc_api_949104 .reference}
+# DescribeBizFlow {#doc_api_1092415 .reference}
 
 调用DescribeBizFlow接口查询高防IP上的业务流量信息，包括入方向和出方向流量。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=DescribeBizFlow)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=DescribeBizFlow)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|DescribeBizFlow|要执行的操作。取值：**DescribeBizFlow**。
+
+ |
 |EndTime|Long|是|1536498197|查询结束时间戳，单位为秒。
 
  |
@@ -71,77 +74,81 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeBizFlow
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<DescribeBizFlow>
-  <requestId>C8B26B44-0189-443E-9816-D951F59623A9</requestId>
+<DescribeBizFlowResponse>
   <Data>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>4</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>2</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>1</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>0</InKbps>
-    <InKbps>2</InKbps>
-    <InKbps>0</InKbps>
+    <InKbps>
+      <element>0</element>
+      <element>1</element>
+      <element>1</element>
+      <element>0</element>
+      <element>0</element>
+      <element>1</element>
+      <element>1</element>
+      <element>0</element>
+      <element>1</element>
+      <element>4</element>
+      <element>0</element>
+      <element>1</element>
+      <element>1</element>
+      <element>0</element>
+      <element>1</element>
+      <element>2</element>
+      <element>0</element>
+      <element>1</element>
+      <element>1</element>
+      <element>1</element>
+      <element>0</element>
+      <element>0</element>
+      <element>1</element>
+      <element>0</element>
+      <element>1</element>
+      <element>0</element>
+      <element>1</element>
+      <element>0</element>
+      <element>0</element>
+      <element>2</element>
+      <element>0</element>
+    </InKbps>
+    <OutKbps>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+      <element>0</element>
+    </OutKbps>
     <TimeScope>
       <Interval>60</Interval>
       <StartTime>1536496380</StartTime>
     </TimeScope>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
-    <OutKbps>0</OutKbps>
   </Data>
-</DescribeBizFlow>
+  <requestId>C8B26B44-0189-443E-9816-D951F59623A9</requestId>
+</DescribeBizFlowResponse>
 
 ```
 
