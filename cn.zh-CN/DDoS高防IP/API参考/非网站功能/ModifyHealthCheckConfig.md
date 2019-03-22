@@ -1,40 +1,44 @@
-# ModifyHealthCheckConfig {#doc_api_949175 .reference}
+# ModifyHealthCheckConfig {#doc_api_1094255 .reference}
 
 调用ModifyHealthCheckConfig接口修改健康检查配置。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=ModifyHealthCheckConfig)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=ModifyHealthCheckConfig)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|ModifyHealthCheckConfig|要执行的操作。取值：**ModifyHealthCheckConfig**。
+
+ |
 |ConfigJson|String|是|\{"check":\{"interval":5,"port":255,"timeout":5,"type":"http","up":3,"down":3,"domain":"www.aliyun.com","uri":"/a/a/a"\}\}|健康检查配置内容（JSON字符串格式），具体结构描述如下：
 
  -   **check**，Object类型，必选，健康检查内容配置，具体结构描述如下：
 
- **说明：** 该参数名以小写开头。
+**说明：** 该参数名以小写开头。
 
- -   **interval**，Integer类型，必选，检查间隔。
--   **port**，Integer类型，可选，检测端口。
+    -   **interval**，Integer类型，必选，检查间隔。
+    -   **port**，Integer类型，可选，检测端口。
 
- **说明：** 协议为**tcp**或**udp**时必填。
+**说明：** 协议为**tcp**或**udp**时必填。
 
- -   **timeout**，Integer类型，必选，响应超时时间。
--   **type**，String类型，必选，协议类型，取值：
--   **tcp**
--   **udp**
--   **http**
--   **up**，Integer类型，必选，健康阈值。
--   **down**，Integer类型，必选，不健康阈值。
--   **domain**，String类型，可选，域名。
+    -   **timeout**，Integer类型，必选，响应超时时间。
+    -   **type**，String类型，必选，协议类型，取值：
+        -   **tcp**
+        -   **udp**
+        -   **http**
+    -   **up**，Integer类型，必选，健康阈值。
+    -   **down**，Integer类型，必选，不健康阈值。
+    -   **domain**，String类型，可选，域名。
 
- **说明：** 协议为**http**时可填，非必需。
+**说明：** 协议为**http**时可填，非必需。
 
- -   **uri**，String类型， 可选，检查路径。
+    -   **uri**，String类型， 可选，检查路径。
 
- **说明：** 协议为http时必填。
+**说明：** 协议为http时必填。
+
 
  |
 |FrontPort|Integer|是|255|转发端口。
@@ -75,9 +79,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyHealthCheckConfig
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<ModifyHealthCheckConfigResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</root>
+</ModifyHealthCheckConfigResponse>
 
 ```
 
