@@ -1,15 +1,18 @@
-# DescribeBackSourceCidr {#doc_api_949196 .reference}
+# DescribeBackSourceCidr {#doc_api_1092499 .reference}
 
 调用DescribeBackSourceCidr接口查询高防回源网段地址。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=DescribeBackSourceCidr)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=DescribeBackSourceCidr)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|DescribeBackSourceCidr|要执行的操作。取值：**DescribeBackSourceCidr**。
+
+ |
 |Line|String|否|bgp|要查询的线路类型。取值：
 
  -   **unicom**：中国联通
@@ -47,9 +50,9 @@
 
 ``` {#request_demo}
 
-https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ListCcCustomedRule
+https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeBackSourceCidr
 &Line=telecom
-&公共请求参数
+&<公共请求参数>
 
 ```
 
@@ -59,11 +62,13 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ListCcCustomedRule
 
 ``` {#xml_return_success_demo}
 <DescribeBackSourceCidrResponse>
-  <RequestId>C8B26B44-0189-443E-9816-D951F59623A9</RequestId>
   <CidrList>
-    <Cidr>180.97.165.0/24</Cidr>
-    <Cidr>180.97.166.0/24</Cidr>
+    <Cidr>
+      <element>180.97.165.0/24</element>
+      <element>180.97.166.0/24</element>
+    </Cidr>
   </CidrList>
+  <requestId>480AC85F-2B2A-49A4-A2DA-BF98AA96E8D6</requestId>
 </DescribeBackSourceCidrResponse>
 
 ```
