@@ -1,4 +1,4 @@
-# ModifyRealServers {#doc_api_1091450 .reference}
+# ModifyRealServers {#doc_api_1094375 .reference}
 
 调用ModifyRealServers接口修改网站防护配置中线路对应的源站。
 
@@ -13,10 +13,10 @@
 |Action|String|是|ModifyRealServers|要执行的操作。取值：**ModifyRealServers**。
 
  |
-|Domain|String|是|www.aliyun.com|要操作的域名。
+|Domain|String|否|www.aliyun.com|要操作的域名。
 
  |
-|Line|String|是|CUT|要操作的线路，取值：
+|Line|String|否|CUT|要操作的线路，取值：
 
  -   **BGP**：BGP线路
 -   **CT**：电信
@@ -24,12 +24,12 @@
 -   **MT**：移动
 
  |
-|RealServers.N|RepeatList|是|1.1.1.1|源站列表。
+|RealServers.N|RepeatList|否|1.1.1.1|源站列表。
 
- **说明：** 若有多个源站，依次传入RealServer.1, RealServer.2, RealServer.3, ...
+ **说明：** 若有多个源站，依次传入RealServer.1、RealServer.2、RealServer.3 ...
 
  |
-|Type|String|是|IP|回源类型，取值：
+|Type|String|否|IP|回源类型，取值：
 
  -   **IP**：回源到Ip
 -   **DOMAIN**：回源到域名
@@ -64,9 +64,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyRealServers
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<ModifyRealServers>
+<ModifyRealServersResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</ModifyRealServers>
+</ModifyRealServersResponse>
 
 ```
 
