@@ -1,4 +1,4 @@
-# ModifyCcTemplate {#doc_api_1091521 .reference}
+# ModifyCcTemplate {#doc_api_1094369 .reference}
 
 调用ModifyCcTemplate接口修改网站安全防护CC防护模式。
 
@@ -51,9 +51,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyCcTemplate
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<ModifyCcTemplate>
+<ModifyCcTemplateResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</ModifyCcTemplate>
+</ModifyCcTemplateResponse>
 
 ```
 
