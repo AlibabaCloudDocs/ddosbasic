@@ -1,15 +1,18 @@
-# DescribeDdosAttackTypeChart {#doc_api_949116 .reference}
+# DescribeDdosAttackTypeChart {#doc_api_1094227 .reference}
 
 调用DescribeDdosAttackTypeChart接口查询高防IP的攻击类型概览图表。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=DescribeDdosAttackTypeChart)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=DescribeDdosAttackTypeChart)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|DescribeDdosAttackTypeChart|要执行的操作。取值：**DescribeDdosAttackTypeChart**。
+
+ |
 |EndTime|Long|是|1536891600|查询结束时间戳，单位为毫秒。
 
  |
@@ -64,13 +67,13 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDdosAttackTypeChart
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<DescribeDdosAttackTypeChart>
-  <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
+<DescribeDdosAttackTypeChartResponse>
   <AttackCount>6</AttackCount>
-  <AttackType>syn-flood</AttackType>
+  <AttackType>udp-flood</AttackType>
   <DropCount>405322</DropCount>
-  <DropType>syn</DropType>
-</DescribeDdosAttackTypeChart>
+  <DropType>udp</DropType>
+  <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
+</DescribeDdosAttackTypeChartResponse>
 
 ```
 
