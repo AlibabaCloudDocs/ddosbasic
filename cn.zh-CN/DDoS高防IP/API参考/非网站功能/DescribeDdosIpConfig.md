@@ -1,22 +1,25 @@
-# DescribeDdosIpConfig {#doc_api_949143 .reference}
+# DescribeDdosIpConfig {#doc_api_1094256 .reference}
 
 调用DescribeDdosIpConfig接口分页查询高防IP防护配置。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=DescribeDdosIpConfig)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=DescribeDdosIpConfig)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|DescribeDdosIpConfig|要执行的操作。取值：**DescribeDdosIpConfig**。
+
+ |
 |Index|Integer|是|0|查询索引，从**0**开始。
 
  |
 |PageSize|Integer|是|10|分页大小，最大值为**10**。
 
  |
-|Ips.N|RepeatList|否|1.1.1.1|要查询的高防IP列表。若有多个IP，请依次传入Ips.1，Ips.2，Ips.3...
+|Ips.N|RepeatList|否|1.1.1.1|要查询的高防IP列表。若有多个IP，请依次传入Ips.1、Ips.2、Ips.3...
 
  **说明：** 若不传入该参数，则返回所有实例的配置。
 
@@ -99,7 +102,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDdosIpConfig
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<DescribeDdosIpConfigResponse>
   <DataList>
     <element>
       <Bandwidth>10000</Bandwidth>
@@ -116,7 +119,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDdosIpConfig
   </DataList>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
   <Total>1</Total>
-</root>
+</DescribeDdosIpConfigResponse>
 
 ```
 
