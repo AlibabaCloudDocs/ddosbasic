@@ -1,4 +1,4 @@
-# CreateTransmitLine {#doc_api_1091445 .reference}
+# CreateTransmitLine {#doc_api_1094362 .reference}
 
 调用CreateTransmitLine接口添加网站防护转发线路。
 
@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|CreateTransmitLine|系统规定参数。取值：CreateTransmitLine。
+|Action|String|是|CreateTransmitLine|要执行的操作。取值：**CreateTransmitLine**。
 
  |
 |Domain|String|否|www.aliyun.com|要操作的域名。
@@ -18,12 +18,12 @@
  |
 |Ips.N|RepeatList|否|1.1.1.1|高防IP列表。
 
- **说明：** 若有多个列表，依次传入Ips.1, Ips.2, Ips.3, ...
+ **说明：** 若有多个列表，依次传入Ips.1、Ips.2、Ips.3 ...
 
  |
 |RealServers.N|RepeatList|否|2.2.2.2|源站列表。
 
- **说明：** 若有多个源站，依次传入RealServer.1, RealServer.2, RealServer.3, ...
+ **说明：** 若有多个源站，依次传入RealServer.1、RealServer.2、RealServer.3 ...
 
  |
 |Type|String|否|IP|回源类型，取值：
@@ -61,9 +61,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=CreateTransmitLine
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<CreateTransmitLineResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</root>
+</CreateTransmitLineResponse>
 
 ```
 
