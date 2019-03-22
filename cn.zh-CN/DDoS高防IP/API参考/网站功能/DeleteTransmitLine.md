@@ -1,4 +1,4 @@
-# DeleteTransmitLine {#doc_api_1091448 .reference}
+# DeleteTransmitLine {#doc_api_1094368 .reference}
 
 调用DeleteTransmitLine接口删除网站防护转发线路。
 
@@ -13,10 +13,10 @@
 |Action|String|是|DeleteTransmitLine|要执行的操作。取值：**DeleteTransmitLine**。
 
  |
-|Domain|String|是|www.aliyun.com|要操作的域名。
+|Domain|String|否|www.aliyun.com|要操作的域名。
 
  |
-|Line|String|是|CUT|要删除的线路，取值：
+|Line|String|否|CUT|要删除的线路，取值：
 
  -   **BGP**：bgp线路
 -   **CT**：电信
@@ -51,9 +51,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DeleteTransmitLine
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<DeleteTransmitLine>
+<DeleteTransmitLineResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</DeleteTransmitLine>
+</DeleteTransmitLineResponse>
 
 ```
 
