@@ -1,15 +1,18 @@
-# DeleteDomain {#doc_api_949236 .reference}
+# DeleteDomain {#doc_api_1094367 .reference}
 
 调用DeleteDomain接口删除网站防护规则。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=DeleteDomain)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=DeleteDomain)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|DeleteDomain|要执行的操作。取值：**DeleteDomain**。
+
+ |
 |Domain|String|是|www.aliyun.com|要移除的域名。
 
  |
@@ -39,9 +42,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DeleteDomain
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<DeleteDomainResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</root>
+</DeleteDomainResponse>
 
 ```
 
