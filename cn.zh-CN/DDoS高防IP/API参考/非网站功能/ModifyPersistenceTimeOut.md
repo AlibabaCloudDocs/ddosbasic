@@ -1,20 +1,24 @@
-# ModifyPersistenceTimeOut {#doc_api_949169 .reference}
+# ModifyPersistenceTimeOut {#doc_api_1094254 .reference}
 
 调用ModifyPersistenceTimeOut接口配置会话保持时间。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=ModifyPersistenceTimeOut)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=ModifyPersistenceTimeOut)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|ConfigJson|String|是|\{"persistence\_timeout":400\}|会话保持时间配置内容（JSON字符串格式），具体结构如下：
+|Action|String|是|ModifyPersistenceTimeOut|要执行的操作。取值：**ModifyPersistenceTimeOut**。
+
+ |
+|ConfigJson|String|是|\{"persistence\_timeout":400\}|会话保持时间配置内容（JSON字符串格式），具体结构描述如下：
 
  -   **persistence\_timeout**，Integer类型，必选，设置会话保持时间，单位为秒，取值范围：30-3,600。
 
- **说明：** 此处的参数名以小写开头。
+**说明：** 此处的参数名以小写开头。
+
 
  |
 |FrontPort|Integer|是|255|转发端口。
@@ -55,9 +59,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyPersistenceTimeOut
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<ModifyPersistenceTimeOutResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</root>
+</ModifyPersistenceTimeOutResponse>
 
 ```
 
