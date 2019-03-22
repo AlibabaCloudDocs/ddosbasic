@@ -1,15 +1,18 @@
-# ModifyDomainProxy {#doc_api_950016 .reference}
+# ModifyDomainProxy {#doc_api_1094365 .reference}
 
 调用ModifyDomainProxy接口修改网站防护的转发协议。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=ModifyDomainProxy)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=ModifyDomainProxy)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|ModifyDomainProxy|要执行的操作。取值：**ModifyDomainProxy**。
+
+ |
 |Domain|String|是|www.aliyun.com|要操作的域名。
 
  |
@@ -20,7 +23,7 @@
 -   **websocket**
 -   **websockets**
 
- **说明：** 若有多个协议类型，依次传入ProxyType.1, ProxyType.2, ProxyType.3, ...
+ **说明：** 若有多个协议类型，依次传入ProxyType.1、ProxyType.2、ProxyType.3 ...
 
  |
 
@@ -50,9 +53,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyDomainProxy
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<ModifyDomainProxyResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</root>
+</ModifyDomainProxyResponse>
 
 ```
 
