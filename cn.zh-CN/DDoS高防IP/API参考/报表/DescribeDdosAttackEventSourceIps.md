@@ -1,15 +1,18 @@
-# DescribeDdosAttackEventSourceIps {#doc_api_949110 .reference}
+# DescribeDdosAttackEventSourceIps {#doc_api_1094225 .reference}
 
 调用DescribeDdosAttackEventSourceIps接口查询高防IP攻击事件的源攻击IP列表。
 
 ## 调试 {#apiExplorer .section}
 
-单击[这里](https://api.aliyun.com/#product=DDoSPro&api=DescribeDdosAttackEventSourceIps)在OpenAPI Explorer中进行可视化调试，并生成SDK代码示例。
+前往【[API Explorer](https://api.aliyun.com/#product=DDoSPro&api=DescribeDdosAttackEventSourceIps)】在线调试，API Explorer 提供在线调用 API、动态生成 SDK Example 代码和快速检索接口等能力，能显著降低使用云 API 的难度，强烈推荐使用。
 
 ## 请求参数 {#parameters .section}
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|DescribeDdosAttackEventSourceIps|要执行的操作。取值：**DescribeDdosAttackEventSourceIps**。
+
+ |
 |CurrentPage|Integer|是|1|分页页号，最小值为**1**。
 
  |
@@ -73,7 +76,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDdosAttackEventSourceIp
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<DescribeDdosAttackEventSourceIpsResponse>
   <Data>
     <IpList>
       <element>
@@ -85,7 +88,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDdosAttackEventSourceIp
     <TotalCount>55</TotalCount>
   </Data>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</root>
+</DescribeDdosAttackEventSourceIpsResponse>
 
 ```
 
