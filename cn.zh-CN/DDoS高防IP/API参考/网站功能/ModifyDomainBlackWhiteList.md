@@ -1,4 +1,4 @@
-# ModifyDomainBlackWhiteList {#doc_api_1091480 .reference}
+# ModifyDomainBlackWhiteList {#doc_api_1094360 .reference}
 
 调用ModifyDomainBlackWhiteList接口修改网站安全防护的黑白名单。
 
@@ -18,12 +18,12 @@
  |
 |Black.N|RepeatList|否|\["1.1.1.1", "2.2.2.2/24"\]|传入黑名单IP或IP段列表。
 
- **说明：** 若传入空列表，则表示清空黑名单。多值时依次传入Black.1, Black.2, Black.3, ...
+ **说明：** 若传入空列表，则表示清空黑名单。多值时依次传入Black.1、Black.2、Black.3 ...
 
  |
 |White.N|RepeatList|否|\["1.1.1.1", "2.2.2.2/24"\]|传入白名单IP或IP段列表。
 
- **说明：** 若传入空列表，则表示清空白名单。多值时依次传入White.1, White.2, White.3, ...
+ **说明：** 若传入空列表，则表示清空白名单。多值时依次传入White.1、White.2、White.3 ...
 
  |
 
@@ -54,9 +54,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyDomainBlackWhiteList
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<ModifyDomainBlackWhiteList>
+<ModifyDomainBlackWhiteListResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</ModifyDomainBlackWhiteList>
+</ModifyDomainBlackWhiteListResponse>
 
 ```
 
