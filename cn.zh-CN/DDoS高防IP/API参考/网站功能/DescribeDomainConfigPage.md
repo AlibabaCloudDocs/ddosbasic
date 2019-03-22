@@ -1,4 +1,4 @@
-# DescribeDomainConfigPage {#doc_api_1091284 .reference}
+# DescribeDomainConfigPage {#doc_api_1094372 .reference}
 
 调用DescribeDomainConfigPage接口分页查询用户的网站配置列表。
 
@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|DescribeDomainConfigPage|系统规定参数。取值：DescribeDomainConfigPage。
+|Action|String|是|DescribeDomainConfigPage|要执行的操作。取值：**DescribeDomainConfigPage**。
 
  |
 |PageNo|Integer|是|1|分页页号，最小值为**1**。
@@ -96,7 +96,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDomainConfigPage
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<DescribeDomainConfigPage>
+<DescribeDomainConfigPageResponse>
   <ConfigList>
     <element>
       <Cname>xxxxxxxxxxxxxx.alicloudddos.com</Cname>
@@ -124,7 +124,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDomainConfigPage
   </ConfigList>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
   <Total>6</Total>
-</DescribeDomainConfigPage>
+</DescribeDomainConfigPageResponse>
 
 ```
 
