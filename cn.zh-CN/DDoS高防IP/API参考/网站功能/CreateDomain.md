@@ -1,4 +1,4 @@
-# CreateDomain {#doc_api_1091290 .reference}
+# CreateDomain {#doc_api_1094364 .reference}
 
 调用CreateDomain接口创建网站防护规则。
 
@@ -13,15 +13,7 @@
 |Action|String|是|CreateDomain|要执行的操作。取值：**CreateDomain**。
 
  |
-|CcEnable|Boolean|是|true|选择是否开启CC攻击防护功能。
-
- |
 |Domain|String|是|www.aliyun.com|添加要防护的域名。
-
- |
-|Ips.N|RepeatList|是|1.1.1.1|防护解析到的高防IP列表，最多支持6个IP。
-
- **说明：** 若有多个高防IP，依次传入Ips.1, Ips.2, Ips.3
 
  |
 |ProxyType.N|RepeatList|是|http|转发类型，取值：
@@ -31,18 +23,26 @@
 -   **websocket**
 -   **websockets**
 
- **说明：** 若有多个类型，依次传入ProxyType.1, ProxyType.2, ProxyType.3, ...
+ **说明：** 若有多个类型，依次传入ProxyType.1、ProxyType.2、ProxyType.3 ...
 
  |
 |RealServer.N|RepeatList|是|1.1.1.1|源站列表。
 
- **说明：** 若有多个源站，依次传入RealServer.1, RealServer.2, RealServer.3, ...
+ **说明：** 若有多个源站，依次传入RealServer.1、RealServer.2、RealServer.3 ...
 
  |
 |Type|String|是|IP|选择回源类型，取值：
 
  -   **IP**：回源到Ip
 -   **DOMAIN**：回源到域名
+
+ |
+|CcEnable|Boolean|否|true|是否开启CC攻击防护功能。
+
+ |
+|Ips.N|RepeatList|否|1.1.1.1|防护解析到的高防IP列表，最多支持6个IP。
+
+ **说明：** 若有多个高防IP，依次传入Ips.1、Ips.2、Ips.3 ...
 
  |
 
@@ -76,9 +76,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=CreateDomain
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<CreateDomain>
+<CreateDomainResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</CreateDomain>
+</CreateDomainResponse>
 
 ```
 
