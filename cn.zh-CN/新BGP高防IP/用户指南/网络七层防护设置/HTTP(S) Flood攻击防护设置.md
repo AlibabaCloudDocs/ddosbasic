@@ -28,13 +28,13 @@
 1.  登录[云盾新BGP高防IP控制台](https://yundun.console.aliyun.com/?p=ddoscoo&__consolePageCode=ddoscoo#/)。
 2.  定位到**管理** \> **网站配置**页面，选择已接入防护的网站域名配置记录，单击**防护设置**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79692/154710794136921_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79692/155411459336921_zh-CN.png)
 
 3.  定位到**CC安全防护**区块，选择CC攻击防护模式。
 
     **说明：** 如果您不想使用CC安全防护功能，可以单击状态开关关闭该功能。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79692/154710794236922_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79692/155411459336922_zh-CN.png)
 
 
 ## 自定义规则 { .section}
@@ -43,7 +43,7 @@
 
 您可以在已接入防护的域名的防护设置页面，定位到**CC安全防护**区块，启用自定义规则防护，并单击**设置**来配置自定义CC防护规则。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79692/154710794236923_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79692/155411459336923_zh-CN.png)
 
 ## CC安全防护设置最佳实践 { .section}
 
