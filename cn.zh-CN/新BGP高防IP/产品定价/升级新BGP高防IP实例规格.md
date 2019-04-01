@@ -21,11 +21,11 @@
 1.  登录[云盾新BGP高防IP控制台](https://yundunnext.console.aliyun.com/?p=ddoscoo#/report)。 
 2.  定位到**管理** \> **实例列表**，选择待升级的新BGP高防IP实例，单击**升级**。 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79683/154743686136584_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79683/155411444336584_zh-CN.png)
 
 3.  在配置变更页面，扩展保底防护带宽、防护域名数、端口数、业务带宽。 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79683/154743686136630_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79683/155411444436630_zh-CN.png)
 
 4.  完成支付，升级后的新BGP高防IP实例规格配置即时生效。 
 
