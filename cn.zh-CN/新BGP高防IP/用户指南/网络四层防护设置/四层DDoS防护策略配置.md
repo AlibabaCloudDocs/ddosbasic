@@ -25,10 +25,10 @@
 1.  登录[新BGP高防云盾管理控制台](https://yundunnext.console.aliyun.com/?p=ddoscoo#/report)。 
 2.  定位到**管理** \> **端口配置**页面，选择新BGP高防IP实例，选择已配置的转发规则，单击DDoS防护策略项中的**配置**。 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79689/154710521036886_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79689/155411455436886_zh-CN.png)
 
 3.  在**DDoS防护策略**对话框中，为选定的IP和端口配置DDoS防护策略。 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79689/154710521036891_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79689/155411455436891_zh-CN.png)
 
 
