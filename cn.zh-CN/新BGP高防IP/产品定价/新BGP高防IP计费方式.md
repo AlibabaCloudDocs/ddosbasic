@@ -4,7 +4,7 @@
 
 如果您的业务对访问时延比较敏感，建议使用该DDoS攻击防护服务。
 
-关于新BGP高防IP服务的详细介绍，请查看[什么是新BGP高防IP](cn.zh-CN/新BGP高防IP/产品简介/什么是新BGP高防IP.md#)。
+关于新BGP高防IP服务的详细介绍，请查看[什么是新BGP高防IP](intl.zh-CN/新BGP高防IP/产品简介/什么是新BGP高防IP.md#)。
 
 ## 基础防护（按月-预付费） { .section}
 
