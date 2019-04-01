@@ -4,7 +4,7 @@
 
 1.  登录[阿里云新BGP高防IP购买页面](https://common-buy.aliyun.com/?commodityCode=ddoscoo#/buy)。 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79682/154710515736636_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79682/155411440036636_zh-CN.png)
 
 2.  根据您的业务需要选择**保底防护带宽**、**弹性防护带宽**、**端口数**、**业务带宽**。 
     -   **保底防护带宽**：指新BGP高防IP实例的保底防护带宽。根据所选择的保底防护带宽及购买时长，生成预付费账单。
@@ -16,5 +16,5 @@
     -   **业务带宽**：指非DDoS攻击状态下新BGP高防IP实例所支持的正常业务消耗带宽。
 3.  选择**购买时长**及**购买数量**，单击**立即购买**，完成支付。 
 
-关于新BGP高防IP的详细计费说明，请查看[新BGP高防IP计费方式](cn.zh-CN/新BGP高防IP/产品定价/新BGP高防IP计费方式.md#)。
+关于新BGP高防IP的详细计费说明，请查看[新BGP高防IP计费方式](intl.zh-CN/新BGP高防IP/产品定价/新BGP高防IP计费方式.md#)。
 
