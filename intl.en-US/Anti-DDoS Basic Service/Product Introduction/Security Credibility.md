@@ -1,8 +1,8 @@
 # Security Credibility {#concept_40054_zh .concept}
 
-**Note:** All Alibaba Cloud users became members of the Security Credibility program by default on July 31, 2018. You can log on to the [Anti-DDoS Basic console](https://yundun.console.aliyun.com/?p=ddosnext) to view the details.
+**Note:** All Alibaba Cloud users became members of the Security Credibility program by default on July 31, 2018. You can log on to the [Anti-DDoS Basic console](https://partners-intl.console.aliyun.com/#/ddosnext) to view the details.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79448/155252827934189_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79448/155252829534189_en-US.png)
 
 ## I. Program introduction {#section_ujy_1kz_bgb .section}
 

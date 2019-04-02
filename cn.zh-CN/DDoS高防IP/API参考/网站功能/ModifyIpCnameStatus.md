@@ -1,4 +1,4 @@
-# ModifyIpCnameStatus {#doc_api_1091449 .reference}
+# ModifyIpCnameStatus {#doc_api_1094363 .reference}
 
 调用ModifyIpCnameStatus接口修改网站防护中高防IP的Cname解析状态。
 
@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|ModifyIpCnameStatus|系统规定参数。取值：ModifyIpCnameStatus。
+|Action|String|是|ModifyIpCnameStatus|要执行的操作。取值：**ModifyIpCnameStatus**。
 
  |
 |Domain|String|否|www.aliyun.com|要操作的域名。
@@ -50,9 +50,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyIpCnameStatus
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<root>
+<ModifyIpCnameStatusResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</root>
+</ModifyIpCnameStatusResponse>
 
 ```
 

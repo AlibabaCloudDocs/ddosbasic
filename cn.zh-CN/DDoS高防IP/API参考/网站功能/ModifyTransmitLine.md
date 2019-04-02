@@ -1,4 +1,4 @@
-# ModifyTransmitLine {#doc_api_1091447 .reference}
+# ModifyTransmitLine {#doc_api_1094361 .reference}
 
 调用ModifyTransmitLine接口修改网站防护转发线路。
 
@@ -13,12 +13,12 @@
 |Action|String|是|ModifyTransmitLine|要执行的操作。取值：**ModifyTransmitLine**。
 
  |
-|Domain|String|是|www.aliyun.com|要操作的域名。
+|Domain|String|否|www.aliyun.com|要操作的域名。
 
  |
-|Ips.N|RepeatList|是|1.1.1.1|高防IP列表。
+|Ips.N|RepeatList|否|1.1.1.1|高防IP列表。
 
- **说明：** 若有多个高防IP，依次传入Ips.1, Ips.2, Ips.3, ...
+ **说明：** 若有多个高防IP，依次传入Ips.1、Ips.2、Ips.3 ...
 
  |
 
@@ -48,9 +48,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyTransmitLine
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<ModifyTransmitLine>
+<ModifyTransmitLineResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</ModifyTransmitLine>
+</ModifyTransmitLineResponse>
 
 ```
 

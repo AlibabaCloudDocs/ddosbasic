@@ -11,7 +11,7 @@
 -   1：域名
 
 |
-|InstanceIds|\[\]String|否|要绑定的实例Id。**说明：** 若不传入该参数，则只添加域名，不绑定到具体IP。
+|InstanceIds.N|String|否|要绑定的实例Id。若有多个实例，依次传入InstanceIds.1, InstanceIds.2, InstanceIds.3, ..**说明：** 若不传入该参数，则只添加域名，不绑定到具体IP。
 
 |
 |Rules|String|是|传入7层规则Layer7Rule数组JSON串。具体结构描述见[Layer7Rule](#)。|
@@ -45,7 +45,7 @@
 {
   "Domain": "www.alibaba.com",
   "RsType": 1,
-  "InstanceIds": ["xxxx","yyyyy"],
+  "InstanceIds.1": "xxxx",
   "Rules": "[{\"ProxyRules\":[{\"ProxyPort\":443,\"RealServers\":[\"1.1.1.1:443\"]}],\"ProxyType\":\"https\"},{\"ProxyRules\":[{\"ProxyPort\":80,\"RealServers\":[\"1.1.1.1:80\"]}],\"ProxyType\":\"http\"}]"
 }
 

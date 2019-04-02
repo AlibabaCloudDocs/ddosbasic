@@ -1,4 +1,4 @@
-# DescribeInstancePage {#doc_api_1091281 .reference}
+# DescribeInstancePage {#doc_api_1094259 .reference}
 
 调用DescribeInstancePage接口查询高防IP的实例信息。
 
@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|DescribeInstancePage|系统规定参数。取值：DescribeInstancePage。
+|Action|String|是|DescribeInstancePage|要执行的操作。取值：**DescribeInstancePage**。
 
  |
 |CurrentPage|Integer|否|1|分页页号，最小值为**1**。
@@ -19,12 +19,12 @@
 |InstanceId|String|否|ddosBag-cn-xxxxx|要查询的实例ID，优先级比**InstanceIdList**高。
 
  |
-|InstanceIdList.N|RepeatList|否|ddosBag-cn-xxxxx|根据实例ID查询，传入要查询的高防实例ID。若有多个实例，依次传入InstanceIdList.1, InstanceIdList.2, InstanceIdList.3, ...
+|InstanceIdList.N|RepeatList|否|ddosBag-cn-xxxxx|根据实例ID查询，传入要查询的高防实例ID。若有多个实例，依次传入InstanceIdList.1、InstanceIdList.2、InstanceIdList.3 ...
 
  **说明：** 该参数不为空时，则优先根据传入的实例ID进行查询。
 
  |
-|IpList.N|RepeatList|否|1.1.1.1|根据高防IP查询，传入要查询的高防IP。若有多个高防IP，依次传入IpList.1, IpList.2, IpList.3, ...
+|IpList.N|RepeatList|否|1.1.1.1|根据高防IP查询，传入要查询的高防IP。若有多个高防IP，依次传入IpList.1、IpList.2、IpList.3 ...
 
  **说明：** 该参数优先级没有**InstanceIdList**高。若**InstanceIdList**为空，则根据传入的高防IP进行查询；否则，根据传入的**InstanceIdList**进行查询。
 
@@ -61,7 +61,7 @@
 |└ElasticBandWidth|Integer|20000|弹性带宽值，单位为M。
 
  |
-|└InstanceId|String|ddosBag-cn-xxxxx|高防IP地址，0表示未启用。
+|└InstanceId|String|ddosBag-cn-xxxxx|高防IP地址，**0**表示未启用。
 
  |
 |└Ip|String|1.1.1.1|高防实例的IP地址。
@@ -107,7 +107,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeInstancePage
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<DescribeInstancePage>
+<DescribeInstancePageResponse>
   <InstanceList>
     <element>
       <InstanceId>ddosBag-cn-xxxxx</InstanceId>
@@ -126,7 +126,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeInstancePage
   </InstanceList>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
   <Total>1</Total>
-</DescribeInstancePage>
+</DescribeInstancePageResponse>
 
 ```
 

@@ -1,4 +1,4 @@
-# DescribeDdosAttackEvents {#doc_api_1091515 .reference}
+# DescribeDdosAttackEvents {#doc_api_1094224 .reference}
 
 调用DescribeDdosAttackEvents接口查询高防IP的攻击事件。
 
@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|DescribeDdosAttackEvents|系统规定参数。取值：DescribeDdosAttackEvents。
+|Action|String|是|DescribeDdosAttackEvents|要执行的操作。取值：**DescribeDdosAttackEvents**。
 
  |
 |CurrentPage|Integer|是|1|分页页号，最小值为**1**。
@@ -88,7 +88,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDdosAttackEvents
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<DescribeDdosAttackEvents>
+<DescribeDdosAttackEventsResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
   <Data>
     <TotalCount>4</TotalCount>
@@ -99,7 +99,7 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=DescribeDdosAttackEvents
       <Result>1</Result>
     </EventList>
   </Data>
-</DescribeDdosAttackEvents>
+</DescribeDdosAttackEventsResponse>
 
 ```
 

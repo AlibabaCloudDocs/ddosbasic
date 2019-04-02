@@ -7,8 +7,8 @@
 |名称|类型|是否必需|描述|
 |--|--|----|--|
 |Domain|String|是|要配置的域名。|
-|BlackList|\[\]String|是|黑名单列表。|
-|WhiteList|\[\]String|是|白名单列表。|
+|BlackList.N|String|否|黑名单列表。若有多个加黑地址，依次传入BlackList.1, BlackList.2, BlackList.3, ...|
+|WhiteList.N|String|否|白名单列表。若有多个加白地址，依次传入WhiteList.1, WhiteList.2, WhiteList.3, ...|
 
 ## 返回参数 { .section}
 
@@ -23,8 +23,10 @@
 ```
 {
   "Domain": "www.alibaba.com",
-  "BlackList" : ["1.1.1.1","2.2.2.2/24"],
-  "WhiteList" : ["3.3.3.3","4.4.4.4/24"],
+  "BlackList.1" : "1.1.1.1",
+  "BlackList.2" : "2.2.2.2/24",
+  "WhiteList.1" : "3.3.3.3",
+  "WhiteList.2" : "4.4.4.4/24"
 }
 
 ```

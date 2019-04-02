@@ -50,13 +50,13 @@
         -   当所迁移的域名与其它账号的泛域名配置存在冲突时，将导致所迁移的域名配置无法正常关联新BGP高防IP实例。如果您拥有多个阿里云账号，请注意检查是否存在此类冲突。
         1.  定位到**接入** \> **网站**，单击**域名同步至新BGP**。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79700/154710801336954_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79700/155411484336954_zh-CN.png)
 
         2.  输入阿里云为您创建的新BGP高防IP实例的IP，选择所需迁移的域名配置。
 
             **说明：** 一次最多支持选择五个域名。如果原高防IP实例中包含超过五个需要迁移的域名配置，请分多次进行域名同步。
 
-            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79700/154710801436955_zh-CN.png)
+            ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79700/155411484336955_zh-CN.png)
 
         3.  单击**一键同步**，并确认，将所选择的域名配置迁移至新BGP高防IP实例。您可以在[新BGP高防IP管理控制台](https://yundunnext.console.aliyun.com/?p=ddoscoo)的**管理** \> **网站配置**页面中查看已迁移的域名配置信息。
 

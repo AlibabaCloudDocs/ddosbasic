@@ -1,4 +1,4 @@
-# ConfigSwitchPriority {#doc_api_1091476 .reference}
+# ConfigSwitchPriority {#doc_api_1094357 .reference}
 
 调用ConfigSwitchPriority接口修改网站防护中高防IP的调度优先级。
 
@@ -18,12 +18,12 @@
  |
 |Config.N.Ip|String|否|1.1.1.1|高防实例IP。
 
- **说明：** 多值时依次传入Config.1.Ip, Config.2.Ip, Config.3.Ip, ...
+ **说明：** 多值时依次传入Config.1.Ip、Config.2.Ip、Config.3.Ip ...
 
  |
 |Config.N.Priority|Integer|否|30|优先级大小，取值：1~999。取值越小优先级越高。
 
- **说明：** 多值时依次传入Config.1.Priority, Config.2.Priority, Config.3.Priority, ...
+ **说明：** 多值时依次传入Config.1.Priority、Config.2.Priority、Config.3.Priority ...
 
  |
 
@@ -53,9 +53,9 @@ https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ConfigSwitchPriority
 `XML` 格式
 
 ``` {#xml_return_success_demo}
-<ConfigSwitchPriority>
+<ConfigSwitchPriorityResponse>
   <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-</ConfigSwitchPriority>
+</ConfigSwitchPriorityResponse>
 
 ```
 
