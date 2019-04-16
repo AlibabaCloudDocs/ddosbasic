@@ -25,13 +25,7 @@
 |名称|类型|描述|
 |--|--|--|
 |Domain|String|域名。|
-|ProxyTypes|\[\]String|转发协议。取值： -   http
--   https
--   websocket
--   websockets
-
- |
-|ProxyTypeList|\[\]ProxyTypeList|协议类型列表。具体结构描述见[ProxyTypeList](#ProxyTypeList)。|
+|ProxyTypeList|\[\]String|协议类型列表。具体结构描述见[ProxyTypeList](#ProxyTypeList)。|
 |RealServers|\[\]String|源站列表。|
 |CcEnabled|Boolean|是否启用CC防护。|
 |CcRuleEnabled|Boolean|是否启用CC规则。|
