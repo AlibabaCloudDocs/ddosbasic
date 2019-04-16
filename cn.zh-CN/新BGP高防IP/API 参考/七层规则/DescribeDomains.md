@@ -7,10 +7,10 @@
 |名称|类型|是否必需|描述|
 |--|--|----|--|
 |Domain|String|否|要查询的域名。|
-|QueryDomainPattern|String|否|查询匹配模式。取值：-   fuzzy：模糊查询（默认）
+|QueryDomainPattern|String|否|查询匹配模式。取值： -   fuzzy：模糊查询（默认）
 -   exact：精确查询
 
-|
+ |
 |Offset|Integer|是|开始索引位置，即从第几条结果开始显示。默认从0开始。|
 |PageSize|Integer|是|分页大小，即每页显示多少条记录。最大值10。|
 
@@ -25,12 +25,13 @@
 |名称|类型|描述|
 |--|--|--|
 |Domain|String|域名。|
-|ProxyTypes|\[\]String|转发协议。取值：-   http
+|ProxyTypes|\[\]String|转发协议。取值： -   http
 -   https
 -   websocket
 -   websockets
 
-|
+ |
+|ProxyTypeList|\[\]ProxyTypeList|协议类型列表。具体结构描述见[ProxyTypeList](#ProxyTypeList)。|
 |RealServers|\[\]String|源站列表。|
 |CcEnabled|Boolean|是否启用CC防护。|
 |CcRuleEnabled|Boolean|是否启用CC规则。|
@@ -42,15 +43,25 @@
 
 |名称|类型|描述|
 |--|--|--|
+|ProxyType|String|协议类型。取值： -   http
+-   https
+-   websocket
+-   websockets
+
+ |
+|ProxyPorts|Integer|协议端口。|
+
+|名称|类型|描述|
+|--|--|--|
 |RealServer|String|源站地址。|
-|RsType|Integer|源站类型。取值：-   0：IP
+|RsType|Integer|源站类型。取值： -   0：IP
 -   1：域名
 
-|
+ |
 
 ## 示例 { .section}
 
-**请求示例**
+**请求示例** 
 
 ```
 {
@@ -59,10 +70,10 @@
   "Offset":0,
   "PageSize":10
 }
-
+				
 ```
 
-**返回示例**
+**返回示例** 
 
 ```
 {
@@ -71,7 +82,13 @@
   "Domains": [
   	{
 		"Domain": "www.alibaba.com",
-		"ProxyTypes": ["https","http"],
+		"ProxyTypeList": [{
+            		"ProxyType":"http",
+           		"ProxyPorts":[
+                			80,
+                			8080
+            				]
+         			}],
 		"RealServers": [{
 			"RealServer": "1.1.1.1",
 			"RsType":0
@@ -106,6 +123,6 @@
 	}
   ]
 }
-
+				
 ```
 
