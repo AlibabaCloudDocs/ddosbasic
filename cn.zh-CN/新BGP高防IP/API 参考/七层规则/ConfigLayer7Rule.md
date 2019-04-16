@@ -15,7 +15,7 @@
 
  |
 |RealServers.N|String|是|源站IP。若有多个源站IP，依次传入RealServers.1, RealServers.2, RealServers.3, ...|
-|ProxyTypesList|\[\]String|是|协议数组。具体结构描述见[ProxyTypeList](#ProxyTypeList)。|
+|ProxyTypesList|String|是|协议数组。具体结构描述见[ProxyTypeList](#ProxyTypeList)。|
 
 |名称|类型|描述|
 |--|--|--|
@@ -43,13 +43,7 @@
   "RsType" : 0,
   "RealServers.1": "1.1.1.1",
   "InstanceIds.1": "xxxx",
-  "ProxyTypeList": [{
-            		"ProxyType":"http",
-           		"ProxyPorts":[
-                			80,
-                			8080
-            				]
-         		}]
+  "ProxyTypeList": "[{\"ProxyPorts\":[80,8080],\"ProxyType\":\"http\"},{\"ProxyPorts\":[443],\"ProxyType\":\"https\"}]"
 }
 				
 ```
