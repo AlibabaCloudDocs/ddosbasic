@@ -82,7 +82,7 @@
                 			80,
                 			8080
             				]
-         			}],
+         	}],
 		"RealServers": [{
 			"RealServer": "1.1.1.1",
 			"RsType":0
@@ -99,7 +99,13 @@
 		"CertName" : "www_alibaba_com.pem"
 	},{
 		"Domain": "www.alibaba.com",
-		"ProxyTypes": ["https","http"],
+		"ProxyTypeList": [{
+            		"ProxyType":"http",
+           		"ProxyPorts":[
+                			80,
+                			8080
+            				]
+         	}],
 		"RealServers": [{
 			"RealServer": "1.1.1.1",
 			"RsType":0
