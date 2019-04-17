@@ -15,7 +15,8 @@
 |**网站和业务信息**|
 |网站/应用业务每天的流量峰值情况，包括Mbps、QPS|判断风险时间点，并且作为DDoS高防实例的业务带宽和业务QPS规格的选择依据。|
 |业务的主要用户群体（例如，访问用户的主要来源地区）|判断非法攻击来源。|
-|业务是否为CS架构|如果是CS架构，进一步明确是否有App客户端、Windows客户端、Linux客户端、或其他环境的客户端。|
+|业务是否为C/S架构|如果是C/S架构，进一步明确是否有App客户端、Windows客户端、Linux客户端、代码回调或其他环境的客户端。|
+|源站是否部署在非中国大陆地域|判断所配置的实例是否符合最佳网络架构。|
 |源站服务器的操作系统（Linux、Windows）和所使用的Web服务中间件（Apache、Nginx、IIS等）|判断源站是否存在访问控制策略，避免源站误拦截DDoS高防回源IP转发的流量。|
 |业务是否需要支持IPv6协议|DDoS高防暂未支持IPv6协议。如果您的业务需要支持IPv6协议，建议您使用[DDoS防护包](../../../../cn.zh-CN/DDoS防护包/产品简介/什么是DDoS防护包.md#)。|
 |业务使用的协议类型|用于后续业务接入DDoS高防配置。|
@@ -115,7 +116,7 @@
 
         如果您发现有攻击流量透传到源站服务器的情况，建议您启用DDoS防护策略中的源、目的连接限速策略。在不完全清楚业务情况时，建议将新建连接限速和并发连接限速均设置为5。如果发现存在误拦截的现象，您可调整数值，适当放宽限速策略。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/155546704342169_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/155548014942169_zh-CN.png)
 
         **说明：** 
 
@@ -229,7 +230,7 @@
 
 购买开通云盾DDoS高防后，您可以在管理控制台中通过钉钉扫描二维码直接联系阿里云安全服务专家。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/155546704338272_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/155548014938272_zh-CN.png)
 
 安全专家将针对您的业务场景提供DDoS高防接入配置指导、安全攻击分析和防御相关安全服务，基于业务实际情况帮助您更好地使用DDoS高防对业务进行安全防护，保障您业务的网络安全。
 
