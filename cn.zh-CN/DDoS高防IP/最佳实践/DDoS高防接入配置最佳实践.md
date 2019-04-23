@@ -116,7 +116,7 @@
 
         如果您发现有攻击流量透传到源站服务器的情况，建议您启用DDoS防护策略中的源、目的连接限速策略。在不完全清楚业务情况时，建议将新建连接限速和并发连接限速均设置为5。如果发现存在误拦截的现象，您可调整数值，适当放宽限速策略。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/155548014942169_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/155598519142169_zh-CN.png)
 
         **说明：** 
 
@@ -165,7 +165,7 @@
 
 5.  **正式切换业务流量** 
 
-    必要测试项均通过后，修改DNS解析记录，将网站业务流量切换至DDoS高防。
+    必要测试项均检测通过后，建议采用灰度的方式逐个修改DNS解析记录，将网站业务流量切换至DDoS高防，避免批量操作导致业务异常。如果切换流量过程中出现异常，请快速恢复DNS解析记录。
 
     **说明：** 修改DNS解析记录后，需要10分钟左右生效。
 
@@ -230,7 +230,7 @@
 
 购买开通云盾DDoS高防后，您可以在管理控制台中通过钉钉扫描二维码直接联系阿里云安全服务专家。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/155548014938272_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/155598519138272_zh-CN.png)
 
 安全专家将针对您的业务场景提供DDoS高防接入配置指导、安全攻击分析和防御相关安全服务，基于业务实际情况帮助您更好地使用DDoS高防对业务进行安全防护，保障您业务的网络安全。
 
