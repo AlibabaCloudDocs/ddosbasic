@@ -14,13 +14,13 @@ In most cases, the chances of being attacked decrease significantly after you ha
 
 -   **Insurance Plan** 
 
-    Each month, Anti-DDoS Premium Insurance Plan offers two free advanced mitigations by default, featuring unlimited mitigation capabilities. This protects your businesses against DDoS attacks with full capacity within 24 hours after an attack has been detected, and consumes one advanced mitigation. The number of advanced mitigations is reset to two at the beginning of every month during the service period.
+    Each month, Anti-DDoS Premium Insurance Plan offers two advanced mitigations by default, featuring unlimited mitigation capabilities. This protects your businesses against DDoS attacks with full capacity within 24 hours after an attack has been detected, and consumes one advanced mitigation. The number of advanced mitigations is reset to two at the beginning of every month during the service period.
 
-    **Note:** To purchase more advanced mitigations, see [Global advanced mitigation](reseller.en-US/Anti-DDoS Premium Service/Pricing/Global advanced DDoS mitigation.md#).
+    **Note:** To purchase more advanced mitigations, see [Global advanced mitigation](reseller.en-US/Anti-DDoS Premium Service/Pricing/Global advanced mitigation.md#).
 
     For example, a protected IP suffers DDoS attacks at 11:20:00 \(UTC+8\), September 12, and an advanced mitigation is triggered. Within 24 hours, Anti-DDoS Premium provides unlimited mitigation capacities for this IP. The protected IP suffers another DDoS attack at 18:50:00 \(UTC+8\), September 13, and an advanced mitigation is triggered again. 24 hours later, the advanced mitigation stops and the two advanced mitigation of the Anti-DDoS Premium Insurance Plan instance in September are exhausted. The number of advanced mitigations is automatically reset to two at the beginning of the following month, October 1.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155006037835184_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155626986935184_en-US.png)
 
     Insurance Plan is a basic solution of Anti-DDoS Premium and applies to users who are less vulnerable to attacks.
 
@@ -61,11 +61,11 @@ Anti-DDoS Premium instances provide the following business specifications by def
 |Business specifications|Descriptions|Default values|Price \(USD/month\)|
 |-----------------------|------------|--------------|-------------------|
 |Number of protected ports|The number of TCP/UDP ports that can be protected by the instance.|5|Every 5 ports: 150 USD/month|
-|Number of protected domain names|The number of HTTP/HTTPS domain names that can be protected by the instance.|10**Note:** Contains only one top-level domain and the subdomains or wildcard domains of this top-level domain.
+|Number of protected domain names|The number of HTTP/HTTPS domain names that can be protected by the instance.|10 **Note:** Contains only one top-level domain and the subdomains or wildcard domains of this top-level domain.
 
-|Every 10 domain names: 150 USD/month**Note:** Every 10 protected domain names contain only one top-level domain and the subdomains or wildcard domains of this top-level domain.
+ |Every 10 domain names: 150 USD/month **Note:** Every 10 protected domain names contain only one top-level domain and the subdomains or wildcard domains of this top-level domain.
 
-|
+ |
 |Clean QPS|The maximum concurrent HTTP/HTTPS requests per second supported when the system is not under attack.| -   Insurance Plan: 500 QPS
 -   Unlimited Plan: 1,000 QPS
 
@@ -85,7 +85,7 @@ You can evaluate your business traffic by using ECS traffic statistics or other 
 
 For example, you connect all access traffic of your external business to an Anti-DDoS Premium instance to secure your business. Anti-DDoS Premium will reroute the normal access traffic to the origin server when the business is normally accessed and without being attacked. When the business is attacked, Anti-DDoS Premium filters and blocks the malicious traffic, and only reroutes the normal traffic to the origin server. Therefore, the inbound and outbound traffic you view in the ECS console is normal traffic. If your business is deployed on multiple origin servers, you need to calculate the total traffic of all origin servers.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155006037838045_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155626986938045_en-US.png)
 
 Assume that you need to connect the businesses of three websites to an Anti-DDoS Premium instance, the normal outbound traffic peak for each business does not exceed 50 Mbps, and the total business traffic does not exceed 150 Mbps. In this case, you only need to ensure that the maximum bandwidth of the purchased instance is greater than 150 Mbps.
 
