@@ -20,7 +20,7 @@ In most cases, the chances of being attacked decrease significantly after you ha
 
     For example, a protected IP suffers DDoS attacks at 11:20:00 \(UTC+8\), September 12, and an advanced mitigation is triggered. Within 24 hours, Anti-DDoS Premium provides unlimited mitigation capacities for this IP. The protected IP suffers another DDoS attack at 18:50:00 \(UTC+8\), September 13, and an advanced mitigation is triggered again. 24 hours later, the advanced mitigation stops and the two advanced mitigation of the Anti-DDoS Premium Insurance Plan instance in September are exhausted. The number of advanced mitigations is automatically reset to two at the beginning of the following month, October 1.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155626986935184_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155644668435184_en-US.png)
 
     Insurance Plan is a basic solution of Anti-DDoS Premium and applies to users who are less vulnerable to attacks.
 
@@ -75,7 +75,7 @@ Anti-DDoS Premium instances provide the following business specifications by def
 
 **How to select a Clean bandwidth specification**
 
-You can select an appropriate Clean bandwidth specification based on the daily inbound and outbound traffic peaks of all businesses that have or will be connected to the Anti-DDoS Premium instance. Make sure that the Clean bandwidth of the instance is greater than the peak value of the inbound and outbound traffic of all businesses.
+You can select an appropriate Clean bandwidth specification based on the daily inbound or outbound traffic peaks of all businesses that have or will be connected to the Anti-DDoS Premium instance. Make sure that the Clean bandwidth of the instance is greater than the peak value of the inbound and outbound traffic of all businesses.
 
 **Note:** Typically, the outbound traffic is greater than the inbound traffic.
 
@@ -85,7 +85,7 @@ You can evaluate your business traffic by using ECS traffic statistics or other 
 
 For example, you connect all access traffic of your external business to an Anti-DDoS Premium instance to secure your business. Anti-DDoS Premium will reroute the normal access traffic to the origin server when the business is normally accessed and without being attacked. When the business is attacked, Anti-DDoS Premium filters and blocks the malicious traffic, and only reroutes the normal traffic to the origin server. Therefore, the inbound and outbound traffic you view in the ECS console is normal traffic. If your business is deployed on multiple origin servers, you need to calculate the total traffic of all origin servers.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155626986938045_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79667/155644668638045_en-US.png)
 
 Assume that you need to connect the businesses of three websites to an Anti-DDoS Premium instance, the normal outbound traffic peak for each business does not exceed 50 Mbps, and the total business traffic does not exceed 150 Mbps. In this case, you only need to ensure that the maximum bandwidth of the purchased instance is greater than 150 Mbps.
 
