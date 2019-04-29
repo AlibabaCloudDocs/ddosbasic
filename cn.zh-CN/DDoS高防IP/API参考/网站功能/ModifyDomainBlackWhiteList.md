@@ -1,4 +1,4 @@
-# ModifyDomainBlackWhiteList {#doc_api_1094360 .reference}
+# ModifyDomainBlackWhiteList {#doc_api_DDoSPro_ModifyDomainBlackWhiteList .reference}
 
 调用ModifyDomainBlackWhiteList接口修改网站安全防护的黑白名单。
 
@@ -16,12 +16,12 @@
 |Domain|String|是|www.aliyun.com|要操作的域名。
 
  |
-|Black.N|RepeatList|否|\["1.1.1.1", "2.2.2.2/24"\]|传入黑名单IP或IP段列表。
+|Black.N|RepeatList|否|2.2.2.2/24|传入黑名单IP或IP段列表。
 
  **说明：** 若传入空列表，则表示清空黑名单。多值时依次传入Black.1、Black.2、Black.3 ...
 
  |
-|White.N|RepeatList|否|\["1.1.1.1", "2.2.2.2/24"\]|传入白名单IP或IP段列表。
+|White.N|RepeatList|否|1.1.1.1/24|传入白名单IP或IP段列表。
 
  **说明：** 若传入空列表，则表示清空白名单。多值时依次传入White.1、White.2、White.3 ...
 
@@ -43,8 +43,8 @@
 
 https://ddospro.cn-hangzhou.aliyuncs.com/?Action=ModifyDomainBlackWhiteList
 &Domain=www.aliyun.com
-&Black=["1.1.1.1","2.2.2.2/24"]
-&White=["1.1.1.1","2.2.2.2/24"]
+&Black.1=2.2.2.2/24
+&White.1=1.1.1.1/24
 &公共请求参数
 
 ```
