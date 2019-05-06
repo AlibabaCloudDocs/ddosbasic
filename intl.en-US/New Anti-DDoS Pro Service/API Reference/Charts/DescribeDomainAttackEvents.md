@@ -7,12 +7,12 @@ You can call this operation to perform queries on attack events by domain.
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |Domain|String|Yes|The domain name that you want to query.|
-|StartTime|Long |Yes|The start timestamp of the query. Unit: milliseconds.|
-|EndTime|Long |Yes|The end timestamp of the query. Unit: milliseconds. The maximum time interval is 30 days.|
-|Offset|Integer|Yes|The number of records to skip when returning the result records.**Note:** If not specified, all result records are returned.
+|StartTime|Long|Yes|The start timestamp of the query. Unit: milliseconds.|
+|EndTime|Long|Yes|The end timestamp of the query. Unit: milliseconds. The maximum time interval is 30 days.|
+|Offset|Integer|Yes|The number of records to skip when returning the result records. **Note:** If not specified, all result records are returned.
 
-|
-|PageSize|Integer  |Yes|The number of result records per page. Maximum value: 50.|
+ |
+|PageSize|Integer|Yes|The number of result records per page. Maximum value: 50.|
 
 ## Response parameters { .section}
 
@@ -29,11 +29,10 @@ You can call this operation to perform queries on attack events by domain.
 |Duration|Integer|The duration of the event. Unit: minutes.|
 |Finished|Boolean|Indicates whether the attack has stopped.|
 |MaxQps|Integer|The maximum request rate during the attack.|
-|BlockCount|Long|The number of requests that are blocked by Anti-DDoS Pro.|
 
 ## Examples { .section}
 
-**Sample requests**
+**Sample requests** 
 
 ```
 {
@@ -43,10 +42,10 @@ You can call this operation to perform queries on attack events by domain.
   "Offset": 0,
   "PageSize": 10
 }
-
+				
 ```
 
-**Sample responses**
+**Sample responses** 
 
 ```
 {
@@ -57,12 +56,11 @@ You can call this operation to perform queries on attack events by domain.
       "EndTime": 3289457398,
       "Duration": 12,
       "Finished": True,
-      "MaxQps": 800,
-      "BlockCount": 2340823,
+      "MaxQps": 800
     }
   ],
   "RequestId": "0bcf28g5-d57c-11e7-9bs0-d89d6717dxbc"
 }
-
+				
 ```
 
