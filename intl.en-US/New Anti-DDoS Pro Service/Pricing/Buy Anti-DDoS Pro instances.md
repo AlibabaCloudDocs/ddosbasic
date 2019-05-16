@@ -2,9 +2,9 @@
 
 To buy an Anti-DDoS Pro instance, perform the following steps:
 
-1.  Open the [Anti-DDoS Pro buy page](https://common-buy.aliyun.com/?commodityCode=ddoscoo#/buy). 
+1.  Open the [Anti-DDoS Pro buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddoscoo_intl#/buy). 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79682/155411564536636_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79682/155800989236636_en-US.png)
 
 2.  Select the **Basic Bandwidth**, **Burstable Bandwidth**, **Ports**, and **Service Bandwidth** based on your needs. 
     -   **Basic Bandwidth**: The minimum bandwidth provided by the Anti-DDoS Pro instance during protection. Your subscription fee is calculated based on the basic bandwidth and subscription duration.
@@ -14,7 +14,7 @@ To buy an Anti-DDoS Pro instance, perform the following steps:
 
     -   **Ports**: The maximum number of forwarding ports the Anti-DDoS Pro instance can use during port forwarding.
     -   **Service Bandwidth**: The maximum bandwidth provided by the Anti-DDoS Pro instance for normal requests when no attack is in progress.
-3.  Select the **Duration** and **Quantity**, and click **Buy Now** to make your payment. 
+3.  Select the **Duration** and **Quantity**, and click **Buy Now** to make your payment.
 
 For more information about the billing methods, see [Billing methods](intl.en-US/New Anti-DDoS Pro Service/Pricing/Billing methods.md#).
 
