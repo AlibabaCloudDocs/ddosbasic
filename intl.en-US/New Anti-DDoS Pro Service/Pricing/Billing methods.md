@@ -14,13 +14,13 @@ For more information about Anti-DDoS Pro, see [What is Anti-DDoS Pro](intl.en-US
 |60 Gbit/s|Eight BGP-line|USD 7,250 per month|
 |100 Gbit/s|Eight BGP-line|**Special offer:** USD 4,240 per year|
 |300 Gbit/s|Eight BGP-line|**Special offer:** USD 6,820 per year|
-|400 Gbit/s|Eight BGP-line|**Special offer:** USD 12,490 per month|
-|500 Gbit/s|Eight BGP-line|**Special offer:** USD 48,420 per month|
-|600 Gbit/s|Eight BGP-line|**Special offer:** USD 57,630 per month|
-|700 Gbit/s|Eight BGP-line|**Special offer:** USD 65,780 per month|
-|800 Gbit/s|Eight BGP-line|**Special offer:** USD 73,680 per month|
-|900 Gbit/s|Eight BGP-line|**Special offer:** USD 81,570 per month|
-|1 Tbit/s|Eight BGP-line|**Special offer:** USD 89,470 per month|
+|400 Gbit/s|Eight BGP-line|**Special offer:** USD 12,490 per year|
+|500 Gbit/s|Eight BGP-line|**Special offer:** USD 48,420 per year|
+|600 Gbit/s|Eight BGP-line|**Special offer:** USD 57,630 per year|
+|700 Gbit/s|Eight BGP-line|**Special offer:** USD 65,780 per year|
+|800 Gbit/s|Eight BGP-line|**Special offer:** USD 73,680 per year|
+|900 Gbit/s|Eight BGP-line|**Special offer:** USD 81,570 per year|
+|1 Tbit/s|Eight BGP-line|**Special offer:** USD 89,470 per year|
 
 ## Flexible protection \(Pay-As-You-Go daily plan\) { .section}
 
@@ -30,7 +30,7 @@ Anti-DDoS Pro charges additional fees for flexible protection on a daily basis. 
 
 Assume that you have an Anti-DDoS Pro instance whose basic bandwidth is 30 Gbit/s and burstable bandwidth is 100 Gbit/s. On the same day, the instance experienced two DDoS attacks, whose maximum bandwidth reached 80 Gbit/s and 40 Gbit/s respectively. In above example, the peak attack bandwidth is 80 Gbit/s. The difference between the peak attack bandwidth and the basic bandwidth is 50 Gbit/s. According to the billing table below, Anti-DDoS Pro charges RMB 6,400 for flexible protection. The fee will be automatically generated in the morning of the following day.
 
- **Notes**:
+**Notes**:
 
 -   No additional fee is charged if the peak attack bandwidth does not exceed the basic bandwidth.
 -   No additional fee is charged if the peak attack bandwidth exceeds the burstable bandwidth. This means if the Anti-DDoS Pro instance enters the black hole status, no additional fee is charged.
